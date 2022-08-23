@@ -1,5 +1,5 @@
 -- // Dependencies
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Load.lua"))()("Module")
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/NormallyNot/Aiming666/main/hu%C4%B19dsxbxs7u9xdegsy%C4%B18swvtuy7swvdtucvuswdvfg7678"))()("Module")
 local AimingChecks = Aiming.Checks
 local AimingSelected = Aiming.Selected
 local AimingSettingsIgnored = Aiming.Settings.Ignored
