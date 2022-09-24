@@ -5,6 +5,7 @@ local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
 local GuiService = game:GetService("GuiService")
 local RunService = game:GetService("RunService")
+local userInput = game:service('UserInputService')
 
 -- // Vars
 local Heartbeat = RunService.Heartbeat
@@ -35,7 +36,7 @@ local tableinsert = table.insert
 
 -- // Silent Aim Vars
 getgenv().Aiming = {
-    Enabled = true,
+    Enabled = false,
 
     ShowFOV = false,
     FOV = 18,
@@ -65,6 +66,11 @@ getgenv().Aiming = {
     }
 }
 local Aiming = getgenv().Aiming
+
+userInput.InputBegan:connect(function(Key)
+if Key.KeyCode == Enum.KeyCode.Q then
+Aiming.Enabled = not Enabled then
+Aiming.Enabled = true
 
 -- // Create circle
 local circle = Drawingnew("Circle")
